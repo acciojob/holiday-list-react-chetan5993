@@ -41,7 +41,7 @@ const App = () => {
         {cityList?.map((city,idx)=>{
           // console.log(city)
           if(city.country==="India")
-          return <li key={city.name + idx}>{city.name}</li>;
+          return <li key={location + idx}>{city.name}</li>;
         })}
         </ol>   
         {/* <h1>my name is chetan</h1> */}
